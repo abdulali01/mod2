@@ -33,5 +33,7 @@ header nav h1
 }
 
 header nav .tabs {
-    display: block;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
 }
