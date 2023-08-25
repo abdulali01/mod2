@@ -16,3 +16,11 @@ header
     background-color: antiquewhite;
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
 }
+
+header nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 142px;
+}
