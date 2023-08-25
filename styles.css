@@ -50,6 +50,7 @@ header nav .tabs .tab a[data-switcher]
     text-decoration: none;
     color: #eee;
     background-color: chocolate;
+    cursor: pointer;
 }
 
 
