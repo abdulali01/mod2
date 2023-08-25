@@ -37,3 +37,11 @@ header nav .tabs {
     display: flex;
     justify-content: flex-end;
 }
+
+header nav .tabs .tab{
+    
+    display: block;
+   
+}
+
+
