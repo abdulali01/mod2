@@ -38,9 +38,9 @@ header nav .tabs {
     justify-content: flex-end;
 }
 
-header nav .tabs .tab{
+header nav .tabs .tab
+{
         display: block;
-   
 }
 
 header nav .tabs .tab a[data-switcher]
@@ -49,7 +49,7 @@ header nav .tabs .tab a[data-switcher]
     padding: 15px 30px;
     text-decoration: none;
     color: #eee;
-    background-color: chocolate;
+    background-color: rgb(106, 117, 5);
     cursor: pointer;
 }
 
