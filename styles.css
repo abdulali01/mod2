@@ -31,3 +31,7 @@ header nav h1
     font-size: 30px;
     font-weight: 600;
 }
+
+header nav .tabs {
+    display: block;
+}
