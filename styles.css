@@ -39,9 +39,17 @@ header nav .tabs {
 }
 
 header nav .tabs .tab{
-    
-    display: block;
+        display: block;
    
+}
+
+header nav .tabs .tab a[data-switcher]
+{
+    display: block;
+    padding: 15px 30px;
+    text-decoration: none;
+    color: #eee;
+    background-color: chocolate;
 }
 
 
