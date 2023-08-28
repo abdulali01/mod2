@@ -16,27 +16,29 @@ var element = document.getElementById("ball");
 
 function moveBall() {
 
-  if(reverse_X)
+  if(reverse_X) //X Axis
     {
         positionX = positionX + velocityX;
         ball.style.left = positionX + 'px';
     }
-  else
-    {
-        positionX = positionX - velocityX;
-        ball.style.left = positionX + 'px';
-    }
+            else
+                {
+                    positionX = positionX - velocityX;
+                    ball.style.left = positionX + 'px';
+                }
 
-   if(reverseY)
-    {
+    if(reverseY) //Y Axis
+   {
         positionY = positionY + velocityy;
         ball.style.top = positionY + 'px';
     }
-  else
-    {
-        positionY = positionY - velocityy;
-        ball.style.top = positionY + 'px';
-    }
+            else
+                {
+                    positionY = positionY - velocityy;
+                    ball.style.top = positionY + 'px';
+                }
+  
+  
   if (positionX > positionXMax || positionX === positionXMin)
     {
         reverse_X = !reverse_X;
@@ -45,7 +47,7 @@ function moveBall() {
     {
         reverseY = !reverseY;
     }
-    
+  
 
 }
 // This call the moveBall function based on the time designated
